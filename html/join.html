@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/join.css">
+    <!-- <script src="../js/join.js"></script> -->
+</head>
+<body>
+        <!-- 헤더 -->
+        <header>
+            <div class="h-inner">
+                <div class="logo">logologo</div>
+                <div class="box-2">?????</div>
+                <ul class="login-container">
+                    <li>
+                        <button class="login-btn">
+                            <span class="h-text">LOGIN</span>
+                        </button>
+                    </li>
+                    <li>
+                        <span>&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+                    </li>
+                    <li>
+                        <a href="join.html" class="">
+                            <span class="h-text">JOIN</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- //헤더 -->
+
+        <!-- 메인 -->
+        <main>
+            <nav>
+                <h1 class="main-text">회원가입</h1>
+            </nav>
+            <hr class="main-line" />
+            <form id="join-form" class="main-content" action="../signup.jsp" method="post">
+               <div class="input-area">
+                    <label for="login-id"></label>
+                    <input type="text" class="tmp" id="login-id" name="login-id" placeholder="아이디를 입력하세요." />
+                <!-- 
+                    validation 문구
+                    <p></p>
+                -->
+                </div>
+                <div class="input-area">
+                    <label for="pw"></label>
+                    <input type="password" class="tmp" id="pw" name="pw" placeholder="비밀번호를 입력하세요." />
+                <!-- 
+                    validation 문구
+                    <p></p>
+                -->
+                </div>
+                <div class="input-area">
+                    <label for="pw"></label>
+                    <input type="password" class="tmp" id="pw-chk" placeholder="비밀번호를 다시 입력하세요." />
+                <!-- 
+                    validation 문구
+                    <p></p>
+                -->
+                </div>
+                <div class="input-area">
+                    <span></span>
+                    <input type="text" class="tmp" name="name" placeholder="이름을 입력하세요." />
+                <!-- 
+                    validation 문구
+                    <p></p>
+                -->
+                </div>
+                <div class="input-area">
+                    <span></span>
+                    <input type="text" class="tmp" name="tel" placeholder="휴대폰 번호를 입력하세요." />
+                <!-- 
+                    validation 문구
+                    <p></p>
+                -->
+                </div>
+                <div class="input-area">
+                    <span></span>
+                    <input type="email" class="tmp" name="email" placeholder="이메일 주소를 입력하세요." />
+                <!-- 
+                    validation 문구
+                    <p></p>
+                -->
+                </div>
+                <div class="input-area">
+                    <input type="submit" id="join-btn" class="btn join-btn" value="회원가입" />
+                </div>
+            </form>
+        </main>
+        <!-- //메인 -->
+</body>
+</html>

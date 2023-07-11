@@ -1,0 +1,23 @@
+main {
+    width: 45em;
+    flex-direction: column;
+    margin-top: 110px;
+}
+
+nav {
+    height: 102px;
+}
+
+section {
+    width: 100%;
+    height: 52%;
+}
+
+table {
+    width: 100%;
+    height: 80%;
+}
+
+.btn, .write-btn {
+    align-self: end;
+}

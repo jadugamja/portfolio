@@ -1,0 +1,58 @@
+main {
+    width: 60em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav {
+    position: relative;
+    /* display: flex;
+    justify-content: space-between; */
+    /* width: 100%; */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 40em;
+    height: 42%;
+
+    margin-left: 20em;
+}
+
+/* .input-area {
+    width: 100px;
+    height: 20px;
+} */
+
+.main-line + .main-content {
+    margin-top: -29em;
+}
+
+.tmp {
+    width: 32em;
+    height: fit-content;
+    white-space: nowrap;
+    padding: 10px 0 12px;
+    background: none transparent;
+    font-size: 20px;
+    line-height: 20px;
+    border: 0;
+    background-color: hsla(160, 33%, 79%, .4);
+    /* border-bottom: 1px solid #fff; */
+}
+
+.tmp + .tmp {
+    margin-top: 10px
+}
+
+input::placeholder {
+    color: #EAEAEA
+}
+
+.join-btn {
+    width: ;
+    height: ;
+}

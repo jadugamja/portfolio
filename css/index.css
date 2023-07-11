@@ -1,0 +1,56 @@
+.outer-box {
+    width: 100%;
+    height: 36em;
+    background: #2E4335;
+    border: 10px solid #F2F1EC;
+    box-shadow: 0 9px 8px -3px rgba(64,60,67,.24), 
+                8px 0 8px -7px rgba(64,60,67,.24), 
+                -8px 0 8px -7px rgba(64,60,67,.24);
+}
+
+.inner-box {
+    width: auto;
+    height: 9em;
+    margin-top: 25em;
+    padding: 18px;
+    background: #F2F1EC;
+}
+
+.inner-txt {
+    display: inline-block;
+    background: #F2F1EC;
+    color: #141413;
+    font-size: 24px;
+}
+
+nav {
+    position: fixed;
+    direction: rtl;
+    width: 6em;
+    height: 100%;
+    margin-top: 10.5em;
+    margin-right: 39em;
+    align-self: baseline;
+}
+
+nav  li + li {
+    margin-top: 20px;
+}
+
+.portfolio {
+    display: block;
+    width: 40px;
+    height: 27px;
+    background-image: url('../img/briefcase_wh.png');
+    background-size: 36px 27px;
+    background-repeat: no-repeat;
+}
+
+.portfolio:hover {
+    display: block;
+    width: 40px;
+    height: 27px;
+    background-image: url('../img/briefcase_yl.png');
+    background-size: 36px 27px;
+    background-repeat: no-repeat;
+}
